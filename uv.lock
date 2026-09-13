@@ -5,7 +5,7 @@ requires-python = ">=3.12"
 [[package]]
 name = "bci"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "brainflow" },
     { name = "matplotlib" },
